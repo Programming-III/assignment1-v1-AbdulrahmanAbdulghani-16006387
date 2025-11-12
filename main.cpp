@@ -37,7 +37,7 @@ int main()
     e.addAnimal(b);
     e.addAnimal(c);
     
-    Visitor();
+    Visitor v("Abdulrahman", 3);
     
     m.display();
     e.displayAnimals();
