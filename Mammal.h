@@ -3,11 +3,20 @@
 
 #include "Animal.h"
 
-//define mammal class here
 
-
-
-
-
+class Mammal : public Animal {
+    private:
+    string furColor;
+    
+    public:
+    Mammal() : Animal(){
+        furColor = "white";
+    }
+    
+    Mammal(string s, string l, int a, bool f) : Animal(l, a, f){
+        furColor = s;
+    }
+    ~Mammal(){}
+};
 
 #endif
