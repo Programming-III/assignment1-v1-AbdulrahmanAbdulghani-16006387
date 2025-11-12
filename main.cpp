@@ -31,7 +31,7 @@ int main()
     
     Mammal m("Wool", "Lion", 5, true);
     Bird bb(10, "Parrot", 2, false);
-    Reptile cc(false, "Snake", 3, true);
+    Reptile cc(true, "Snake", 3, true);
     
     e.addAnimal(a);
     e.addAnimal(b);
