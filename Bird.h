@@ -3,12 +3,22 @@
 
 #include "Animal.h"
 
-//define class bird here 
 
+class Bird : public Animal {
+private:
+	int wingSpan;
 
+public:
+	Bird() : Animal() {
+		wingSpan = 0;
+	}
 
+	Bird(int s, string l, int a, bool f) : Animal(l, a, f) {
+		 wingSpan = s;
+	}
+	
+	 ~Bird(){}
 
-
-
+}
 
 #endif
